@@ -35,7 +35,7 @@ jobs:
       - image: google/cloud-sdk
     environment:
       - PROJECT_NAME: "kube-voice"
-      - GOOGLE_PROJECT_ID: "kubernetes-deployer-bfad9"
+      - GOOGLE_PROJECT_ID: "kube-voice"
       - GOOGLE_COMPUTE_ZONE: "us-central1-a"
       - GOOGLE_CLUSTER_NAME: "standard-cluster-1"
     steps:
